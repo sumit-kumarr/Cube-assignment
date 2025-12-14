@@ -330,7 +330,7 @@ body {
 .hero-stats strong {
     font-size: 36px;
     font-weight: 700;
-    color: var(--green-900);
+    color:rgb(48, 89, 48);
     line-height: 1;
 }
 
@@ -527,7 +527,7 @@ body {
     border-radius: 6px 6px 0 0;
     text-align: center;
     font-weight: 700;
-    margin: -18px -18px 12px;
+    margin-top: 10px;
     font-size: 14px;
 }
 
@@ -940,7 +940,8 @@ table tbody td:first-child {
 
 .included-item.single-bottle .included-bottles img {
     width: 80px;
-    height: auto;
+    height: 90px;
+    /* height: auto; */
     margin: 0;
 }
 
@@ -955,14 +956,14 @@ table tbody td:first-child {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 6px;
+    gap: 4px;
     flex-wrap: wrap;
     padding: 8px 0;
 }
 
 .included-bottles img {
-    width: 40px;
-    height: auto;
+    width: 50px;
+    height: 50px;
     object-fit: cover;
 }
 
@@ -1110,7 +1111,7 @@ table tbody td:first-child {
 }
 
 .footer-brand h3 {
-    font-size: 36px;
+    font-size: 25px;
     margin-bottom: 30px;
 }
 
@@ -1122,6 +1123,7 @@ table tbody td:first-child {
 .footer-links {
     display: flex;
     gap: 28px;
+    margin-top: 65px;
 }
 
 .footer-column {
@@ -1143,7 +1145,7 @@ table tbody td:first-child {
 .footer-social {
     display: flex;
     gap: 10px;
-    margin-top: 10px;
+    margin-top: 65px;
     align-items: center;
 }
 
@@ -1169,8 +1171,21 @@ table tbody td:first-child {
 .newsletter-form {
     display: flex;
     gap: 9px;
-    margin-top: 9px;
+    flex-direction: column;
+    margin-top: 60px;
 }
+
+.newsletter-form-inner {
+    display: flex;
+    gap: 9px;
+    flex-direction: row;
+}
+
+
+/* .footer-newsletter h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+} */
 
 .newsletter-form input {
     padding: 12px;
